@@ -1,0 +1,12 @@
+
+{
+  "name": "ci-agile-demo",
+  "version": "1.0.0",
+  "description": "Node.js project for CI using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node --check index.js",
+    "build": "node -e \"console.log('Build successful')\""
+  }
+}
